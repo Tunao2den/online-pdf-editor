@@ -1,7 +1,15 @@
 <template>
-  <PdfViewer />
+  <router-view />
 </template>
 
 <script setup>
-import PdfViewer from './components/PdfViewer.vue'
 </script>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+</style>
